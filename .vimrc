@@ -1,4 +1,4 @@
-colorscheme elflord
+colorscheme retrobox
 syntax on
 set bg=dark
 set hlsearch
