@@ -111,10 +111,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias status_date="date '+%a %d/%m/%y %H:%M:%S'"
-alias status_battery="cat /sys/class/power_supply/BAT0/capacity"
-alias status_brightness="echo '($(brightnessctl get)*100)/$(brightnessctl max)'|bc"
-alias status_volume="pactl get-sink-volume @DEFAULT_SINK@ | sed -n 's/.* \([0-9]\+\)% .*/\1/p'"
-alias status="st -t popup -e dialog --msgbox 'DATE: $(status_date)\nBATTERY: $(status_battery)%\nBRIGHTNESS: $(status_brightness)%\nVOLUME: $(status_volume)%' 10 40"
-alias less="less --QUIET"
-alias man="man --pager='less --QUIET'"
+alias less='less --QUIET'
+alias man='man --pager="less --QUIET"'
