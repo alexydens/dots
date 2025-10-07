@@ -1,4 +1,5 @@
 .config/Min
+.config/htop
 .config/go
 .config/dconf
 .config/gtk-3.0
