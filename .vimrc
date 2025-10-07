@@ -3,6 +3,7 @@ syntax on
 set bg=dark
 set hlsearch
 set colorcolumn=80
+set textwidth=80
 set number
 set relativenumber
 set noswapfile
