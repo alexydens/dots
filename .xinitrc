@@ -1,4 +1,5 @@
 setxkbmap gb
 dunst&
-redshift -P -O 4500K
-exec dwm
+redshift -P -O 4000K
+#exec dwm
+exec ~/dev/wm/bin/wm
