@@ -113,3 +113,4 @@ source $ZSH/oh-my-zsh.sh
 
 alias less='less --QUIET'
 alias man='man --pager="less --QUIET"'
+unsetopt BEEP
