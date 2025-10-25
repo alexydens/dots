@@ -6,3 +6,9 @@
 .config/pulse
 .config/spotify
 .config/yay
+.config/.avalonia-build-tasks
+.config/fcitx
+.config/fcitx5
+.config/godot
+.config/ibus
+.config/mozc
