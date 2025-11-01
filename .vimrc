@@ -15,6 +15,7 @@ set shiftwidth=2
 set smartindent
 set belloff=all
 set termguicolors
+set cursorline
 tnoremap <ESC> <C-\><C-n>
 nnoremap <C-c> <CMD>let @/=''<CR>
 nnoremap <C-n> <C-w>w
